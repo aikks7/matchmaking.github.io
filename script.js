@@ -5,7 +5,6 @@ const btn = document.getElementById('submit');
 console.log("Script connected to button:", btn);
 
 btn.addEventListener('click', async () => {
-    alert("Button was clicked!");
 
     const payload = {
         fullName: document.getElementById('name').value,
@@ -36,7 +35,7 @@ btn.addEventListener('click', async () => {
             body: JSON.stringify(payload)
         });
         
-        //alert("Success! Your match info has been sent.");
+        alert("Success! Your match info has been sent.");
         btn.innerText = "Submit";
         btn.disabled = false;
         
@@ -47,3 +46,4 @@ btn.addEventListener('click', async () => {
         btn.disabled = false;
     }
 }); // End of event listener
+
