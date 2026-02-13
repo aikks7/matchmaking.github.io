@@ -1,0 +1,63 @@
+.q1 {
+    height: 70%;
+    width: 50%;
+    display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 50px;
+    background-color:#ffc3d098;
+    display:grid;
+    font-family: kindergarten;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+label {
+    padding: 20px;
+    font-size: 25px;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px;
+    font-family: kindergarten;
+    border-radius: 5px;
+    border: 2px solid #ffadbd;
+}
+
+option {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ffadbd;
+    font-family: kindergarten;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-family: Amalia Valentine;
+    color: #8cf77bfe;
+    padding: 10px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: kindergarten;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ffadbd;
+    background-color: #8cf77bfe;
+    font-family: kindergarten;
+    width: 300px;
+    margin: 0 auto;
+}
+
+button:active {
+    background-color: pink;
+}
