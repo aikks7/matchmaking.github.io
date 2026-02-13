@@ -35,7 +35,7 @@ btn.addEventListener('click', async () => {
             body: JSON.stringify(payload)
         });
         
-        alert("Success! Your match info has been sent.");
+        alert("Success! Thank you for filling out my form. Please wait 1-3 days for an email.");
         btn.innerText = "Submit";
         btn.disabled = false;
         
@@ -46,4 +46,5 @@ btn.addEventListener('click', async () => {
         btn.disabled = false;
     }
 }); // End of event listener
+
 
