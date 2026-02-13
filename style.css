@@ -1,3 +1,21 @@
+@font-face {
+  font-family: kindergarten;
+  src: url('kindergarten.woff2') format('woff2'),
+       url('kindergarten.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Ensures text is visible during font load */
+}
+
+@font-face {
+  font-family: Amalia Valentine;
+  src: url('Amalia Valentine.woff2') format('woff2'),
+       url('Amalia Valentine.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Ensures text is visible during font load */
+}
+
 body {
   background-image: url("plaid.jpg");
 }
@@ -74,3 +92,4 @@ button {
 button:active {
     background-color: pink;
 }
+
