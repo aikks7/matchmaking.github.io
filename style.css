@@ -1,6 +1,7 @@
 
 body {
   background-image: url("plaid.jpg");
+  background-size: cover;
 }
 
 .q1 {
@@ -67,3 +68,4 @@ button:active {
     background-color: pink;
 
 }
+
